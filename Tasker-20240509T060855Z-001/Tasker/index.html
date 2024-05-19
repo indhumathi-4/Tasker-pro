@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="images/png" href="images/Task.png">
+   
+</head>
+<body>
+<div class="top">
+<div class="left">
+    <img src="images/pngtree-vector-checklist-icon-png-image_872180-removebg-preview.png">
+</div>
+<div class="right">
+    <h1>Welcome to Tasker</h1>
+    <br>
+    <p >Please, insert your informations to access your tasks</p>
+   <br>
+   <form id="login" class = "login" method="post" action="second.html" name="form" >
+    <h4>Email</h4>
+    <input type="email" placeholder="Insert your email"  required id="ine" name="email">
+    <div id="emailerror">Please fill your email address</div>
+    <h4> Password </h4>
+    <input type="password" placeholder="Insert your password" required id="inp" name="password">
+    <div id ="passerror"> Please fill your password</div>
+    <br>
+<br>
+    <div class="rem">
+    <label>
+     <input type="checkbox"> Remember me </label>
+     </div>
+     <br>
+<div class="btn">
+    <button type="submit">Sign in </button>
+</div>
+<br>
+    <p>Do you have any account? <span><b>Sign up</b></span></p>
+</div>
+</form>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
